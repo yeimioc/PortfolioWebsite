@@ -252,7 +252,15 @@ img {
 
 #about-b .progress {
   overflow: hidden;
-  height: 20p; }
+  height: 20px;
+  background: #ccc;
+  border-radius: 5px;
+  margin-bottom: 0.3rem; }
+  #about-b .progress div {
+    height: 100%;
+    color: #f;
+    text-align: center;
+    background: #ffbc00; }
 
 #main-footer {
   background: #333;
